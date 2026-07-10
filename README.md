@@ -6,16 +6,16 @@
 
 请进入 GitHub Release 下载最新版：
 
-- [研构智库 V1.3.1 / T1.1](https://github.com/dilucyad/Prediction-repository/releases/tag/V1.3.1)
+- [研构智库 V1.3.2 / T1.2](https://github.com/dilucyad/Prediction-repository/releases/tag/V1.3.2)
 
 ## 当前版本
 
-- V 系列稳定版：`ScientificPlatformPrediction_V1.3.1.exe`
-- T 系列预测版：`ScientificPlatformT_T1.1.exe`
+- V 系列稳定版：`ScientificPlatformPrediction_V1.3.2.exe`
+- T 系列预测版：`ScientificPlatformT_T1.2.exe`
 
 Release 页面仅保留最新一组发布文件：V 系列一份、T 系列一份。
 
-## V 系列 V1.3.1
+## V 系列 V1.3.2
 
 V 系列为稳定分发版本，面向日常使用场景。主要功能包括：
 
@@ -26,9 +26,9 @@ V 系列为稳定分发版本，面向日常使用场景。主要功能包括：
 - 软件说明弹窗
 - 版本更新检测
 
-## T 系列 T1.1
+## T 系列 T1.2
 
-T 系列为预测功能版本，面向直接预测场景。主要功能包括：
+T 系列为预测功能版本，面向直接预测场景，暂时只预测 PI 的性能。主要功能包括：
 
 - SMILES 输入与结构绘制
 - 温度、频率等条件输入
@@ -37,6 +37,15 @@ T 系列为预测功能版本，面向直接预测场景。主要功能包括：
 - 主题切换
 - 软件说明弹窗
 - 版本更新检测
+
+## 更新规则
+
+V 系列和 T 系列分别识别各自的安装包：
+
+- V 系列只识别 `ScientificPlatformPrediction_*.exe`
+- T 系列只识别 `ScientificPlatformT_*.exe`
+
+两个系列可以放在同一个 Release 中，但更新时只会提示和下载对应系列的新版本。
 
 ## 使用方式
 
