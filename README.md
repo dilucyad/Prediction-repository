@@ -5,7 +5,7 @@
 ## 当前发布文件
 
 - V 系列稳定版：`ScientificPlatformPrediction_V1.3.2.exe`
-- T 系列模型版：`ScientificPlatformT_T1.3.exe`
+- T 系列模型版：`ScientificPlatformPrediction_T1.3.exe`
 
 GitHub Release 仅保留最新一组发布文件：V 系列一份、T 系列一份。
 
@@ -31,7 +31,7 @@ T 系列面向模型直接预测，不通过数据库调用或数据库匹配展
 V 系列和 T 系列使用不同附件前缀区分更新文件：
 
 - V 系列只识别 `ScientificPlatformPrediction_*.exe`
-- T 系列只识别 `ScientificPlatformT_*.exe`
+- T 系列只识别 `ScientificPlatformPrediction_T*.exe`
 
 这样两个系列可以放在同一个 GitHub Release 中，同时避免更新时下载到错误系列。
 
