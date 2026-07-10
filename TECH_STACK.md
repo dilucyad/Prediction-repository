@@ -16,10 +16,8 @@
 
 ## 发布与更新
 
-- V 系列与 T 系列使用不同文件名前缀区分更新包
+- 当前公开 Release 仅保留 V 系列安装包
 - V 系列识别：`ScientificPlatformPrediction_*.exe`
-- T 系列识别：`ScientificPlatformT_*.exe`
-- Release 页面仅保留最新 V/T 安装包各一份
 
 ## 不公开内容
 
