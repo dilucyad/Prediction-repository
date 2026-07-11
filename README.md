@@ -22,7 +22,7 @@ T 系列面向 PI/PBZ 结构性能预测。程序根据输入或绘制得到的 
 - PI：Dieletric Constant、Dieletric Loss、Td5%、Tg、SA score。
 - PBZ：Dieletric Constant、Dieletric Loss、Tg、SA score。
 
-预测界面支持 SMILES 输入、结构绘制、PI/PBZ 体系选择、10–20 秒随机进度条延迟展示、主题切换、中英文切换、启动说明和预测记录查看。预测记录保存在本机，可在界面中查看历史结果并回填对应 SMILES。
+预测界面支持 SMILES 输入、结构绘制、PI/PBZ 体系选择、主题切换、中英文切换、启动说明和预测记录查看。预测记录保存在本机，可在界面中查看历史结果并回填对应 SMILES。
 
 适用场景：需要进行 PI/PBZ 结构性能预测、记录和复查的测试使用。
 
@@ -46,3 +46,4 @@ V 系列和 T 系列使用不同附件前缀区分更新文件：
 3. 双击运行。
 4. 输入 SMILES 或点击“绘制结构式”。
 5. V 系列查看预测提示与结果；T 系列选择 PI 或 PBZ 后查看性能预测结果和 SA score。
+
