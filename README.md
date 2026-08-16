@@ -5,7 +5,7 @@
 ## 当前发布文件
 
 - V 系列稳定版：`ScientificPlatformPrediction_V1.3.2.exe`
-- T 系列增强版：`ScientificPlatformPrediction_T1.3.exe`
+- T 系列增强版：`ScientificPlatformPrediction_T1.4.exe`
 
 GitHub Release 仅保留最新一组发布文件：V 系列一份、T 系列一份。
 
@@ -15,12 +15,14 @@ V 系列面向稳定分发，保留 SMILES 输入、结构绘制、预测提示�
 
 适用场景：需要稳定界面和受约束预测流程的日常使用。
 
-## T 系列 T1.3
+## T 系列 T1.4
 
 T 系列面向 PI/PBZ 结构性能预测。程序根据输入或绘制得到的 SMILES 进行计算，并按用户选择的体系展示对应性能结果：
 
 - PI：Dieletric Constant、Dieletric Loss、Td5%、Tg、SA score。
 - PBZ：Dieletric Constant、Dieletric Loss、Tg、SA score。
+
+T1.4 已将 PI 介电损耗预测更新为 tb510 单点模型，适用于 25 °C、1 MHz 条件；PBZ 继续使用原有介电损耗模型。
 
 预测界面支持 SMILES 输入、结构绘制、PI/PBZ 体系选择、主题切换、中英文切换、启动说明和预测记录查看。预测记录保存在本机，可在界面中查看历史结果并回填对应 SMILES。
 
