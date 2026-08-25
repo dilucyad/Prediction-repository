@@ -22,7 +22,7 @@ T 系列面向 PI/PBZ 结构性能预测。程序根据输入或绘制得到的 
 - PI：Dieletric Constant、Dieletric Loss、Td5%、Tg、SA score。
 - PBZ：Dieletric Constant、Dieletric Loss、Tg、SA score。
 
-T1.4 已将 PI 介电损耗预测更新为 tb510 单点模型，适用于 25 °C、1 MHz 条件；PBZ 继续使用原有介电损耗模型。
+T1.4 已将 PI 介电损耗预测更新为 tb510 `predict_freq.py` 频率框架模型，温度固定为 25 °C，频率输入需为正值；1 MHz 为默认条件。PBZ 介电损耗仍使用原 PBZ 模型。
 
 预测界面支持 SMILES 输入、结构绘制、PI/PBZ 体系选择、主题切换、中英文切换、启动说明和预测记录查看。预测记录保存在本机，可在界面中查看历史结果并回填对应 SMILES。
 
